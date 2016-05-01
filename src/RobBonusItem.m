@@ -14,7 +14,7 @@
 @synthesize provider = _provider;
 @synthesize pointValue = _pointValue;
 
-- (instancetype)initWithTitle:(NSString *)title provider:(NSString *)provider pointValue:(NSInteger *)pointValue {
+- (instancetype)initWithTitle:(NSString *)title provider:(NSString *)provider pointValue:(NSInteger)pointValue {
 	if (self = [super init]) {
 		_title = title;
 		_provider = provider;
