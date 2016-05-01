@@ -1,0 +1,16 @@
+#include "target__common.xcconfig"
+
+INFOPLIST_FILE = ../res/Info.plist;
+PRODUCT_BUNDLE_IDENTIFIER = com.robertstein.$(TARGET_NAME);
+PRODUCT_NAME = $(TARGET_NAME);
+
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
+
+ALWAYS_SEARCH_USER_PATHS = NO;
+FRAMEWORK_SEARCH_PATHS =
+HEADER_SEARCH_PATHS =
+LIBRARY_SEARCH_PATHS =
+USER_HEADER_SEARCH_PATHS = ../src
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks;

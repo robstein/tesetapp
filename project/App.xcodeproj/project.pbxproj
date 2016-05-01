@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D44AB5D31CD09C57009BC715 /* RobTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44AB5D21CD09C57009BC715 /* RobTabBarController.m */; };
+		D49524FF1CD32F5D00067E00 /* RobBonusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49524FE1CD32F5D00067E00 /* RobBonusViewController.m */; };
+		D49525021CD336AD00067E00 /* RobBonusViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D49525011CD336AD00067E00 /* RobBonusViewDelegate.m */; };
+		D49525051CD336C700067E00 /* RobBonusViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D49525041CD336C700067E00 /* RobBonusViewDataSource.m */; };
+		D49525081CD339A700067E00 /* RobBonusFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D49525071CD339A700067E00 /* RobBonusFlowLayout.m */; };
+		D495250B1CD33DE900067E00 /* RobBonusViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D495250A1CD33DE900067E00 /* RobBonusViewCell.m */; };
+		D495250E1CD33E2000067E00 /* RobBonusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D495250D1CD33E2000067E00 /* RobBonusModel.m */; };
+		D49525151CD3493B00067E00 /* RobBonusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D49525141CD3493B00067E00 /* RobBonusItem.m */; };
+		D4FA6E941CB58B1A00A63837 /* RobAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D40B6CA21CB4E93D00F6E80C /* RobAppDelegate.m */; };
+		D4FA6E951CB58B1C00A63837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D40B6C9F1CB4E93600F6E80C /* main.m */; };
+		D4FA6E961CB58B2B00A63837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40B6C9C1CB4E93600F6E80C /* Assets.xcassets */; };
+		D4FA6E971CB58B2B00A63837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40B6C9E1CB4E93600F6E80C /* LaunchScreen.storyboard */; };
+		D4FA6E981CB58B2B00A63837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40B6CA01CB4E93600F6E80C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D40B6C9C1CB4E93600F6E80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../res/Assets.xcassets; sourceTree = "<group>"; };
+		D40B6C9D1CB4E93600F6E80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../res/Info.plist; sourceTree = "<group>"; };
+		D40B6C9E1CB4E93600F6E80C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../res/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D40B6C9F1CB4E93600F6E80C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../res/main.m; sourceTree = "<group>"; };
+		D40B6CA01CB4E93600F6E80C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../res/Main.storyboard; sourceTree = "<group>"; };
+		D40B6CA11CB4E93D00F6E80C /* RobAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RobAppDelegate.h; path = ../src/RobAppDelegate.h; sourceTree = "<group>"; };
+		D40B6CA21CB4E93D00F6E80C /* RobAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RobAppDelegate.m; path = ../src/RobAppDelegate.m; sourceTree = "<group>"; };
+		D40B6CA31CB4E94800F6E80C /* project__common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = project__common.xcconfig; path = ../xcconfig/project__common.xcconfig; sourceTree = "<group>"; };
+		D40B6CA41CB4E94800F6E80C /* project__debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = project__debug.xcconfig; path = ../xcconfig/project__debug.xcconfig; sourceTree = "<group>"; };
+		D40B6CA51CB4E94800F6E80C /* project__ship.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = project__ship.xcconfig; path = ../xcconfig/project__ship.xcconfig; sourceTree = "<group>"; };
+		D40B6CA61CB4E94800F6E80C /* target__app.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = target__app.xcconfig; path = ../xcconfig/target__app.xcconfig; sourceTree = "<group>"; };
+		D40B6CA71CB4E94800F6E80C /* target__common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = target__common.xcconfig; path = ../xcconfig/target__common.xcconfig; sourceTree = "<group>"; };
+		D44AB5D01CD09429009BC715 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44AB5D11CD09C57009BC715 /* RobTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobTabBarController.h; path = ../src/RobTabBarController.h; sourceTree = "<group>"; };
+		D44AB5D21CD09C57009BC715 /* RobTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobTabBarController.m; path = ../src/RobTabBarController.m; sourceTree = "<group>"; };
+		D49524FD1CD32F5D00067E00 /* RobBonusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusViewController.h; path = ../src/RobBonusViewController.h; sourceTree = "<group>"; };
+		D49524FE1CD32F5D00067E00 /* RobBonusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobBonusViewController.m; path = ../src/RobBonusViewController.m; sourceTree = "<group>"; };
+		D49525001CD336AD00067E00 /* RobBonusViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusViewDelegate.h; path = ../src/RobBonusViewDelegate.h; sourceTree = "<group>"; };
+		D49525011CD336AD00067E00 /* RobBonusViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobBonusViewDelegate.m; path = ../src/RobBonusViewDelegate.m; sourceTree = "<group>"; };
+		D49525031CD336C700067E00 /* RobBonusViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusViewDataSource.h; path = ../src/RobBonusViewDataSource.h; sourceTree = "<group>"; };
+		D49525041CD336C700067E00 /* RobBonusViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobBonusViewDataSource.m; path = ../src/RobBonusViewDataSource.m; sourceTree = "<group>"; };
+		D49525061CD339A700067E00 /* RobBonusFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusFlowLayout.h; path = ../src/RobBonusFlowLayout.h; sourceTree = "<group>"; };
+		D49525071CD339A700067E00 /* RobBonusFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobBonusFlowLayout.m; path = ../src/RobBonusFlowLayout.m; sourceTree = "<group>"; };
+		D49525091CD33DE900067E00 /* RobBonusViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusViewCell.h; path = ../src/RobBonusViewCell.h; sourceTree = "<group>"; };
+		D495250A1CD33DE900067E00 /* RobBonusViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobBonusViewCell.m; path = ../src/RobBonusViewCell.m; sourceTree = "<group>"; };
+		D495250C1CD33E2000067E00 /* RobBonusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusModel.h; path = ../src/RobBonusModel.h; sourceTree = "<group>"; };
+		D495250D1CD33E2000067E00 /* RobBonusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobBonusModel.m; path = ../src/RobBonusModel.m; sourceTree = "<group>"; };
+		D49525121CD348E500067E00 /* RobTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RobTypes.h; path = ../src/RobTypes.h; sourceTree = "<group>"; };
+		D49525131CD3493B00067E00 /* RobBonusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusItem.h; path = ../src/RobBonusItem.h; sourceTree = "<group>"; };
+		D49525141CD3493B00067E00 /* RobBonusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobBonusItem.m; path = ../src/RobBonusItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D40B6CA91CB4E96A00F6E80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D40B6C991CB4E91C00F6E80C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D40B6CA11CB4E93D00F6E80C /* RobAppDelegate.h */,
+				D40B6CA21CB4E93D00F6E80C /* RobAppDelegate.m */,
+				D49525061CD339A700067E00 /* RobBonusFlowLayout.h */,
+				D49525071CD339A700067E00 /* RobBonusFlowLayout.m */,
+				D49525131CD3493B00067E00 /* RobBonusItem.h */,
+				D49525141CD3493B00067E00 /* RobBonusItem.m */,
+				D495250C1CD33E2000067E00 /* RobBonusModel.h */,
+				D495250D1CD33E2000067E00 /* RobBonusModel.m */,
+				D49525091CD33DE900067E00 /* RobBonusViewCell.h */,
+				D495250A1CD33DE900067E00 /* RobBonusViewCell.m */,
+				D49524FD1CD32F5D00067E00 /* RobBonusViewController.h */,
+				D49524FE1CD32F5D00067E00 /* RobBonusViewController.m */,
+				D49525031CD336C700067E00 /* RobBonusViewDataSource.h */,
+				D49525041CD336C700067E00 /* RobBonusViewDataSource.m */,
+				D49525001CD336AD00067E00 /* RobBonusViewDelegate.h */,
+				D49525011CD336AD00067E00 /* RobBonusViewDelegate.m */,
+				D44AB5D11CD09C57009BC715 /* RobTabBarController.h */,
+				D44AB5D21CD09C57009BC715 /* RobTabBarController.m */,
+				D49525121CD348E500067E00 /* RobTypes.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		D40B6C9A1CB4E92000F6E80C /* res */ = {
+			isa = PBXGroup;
+			children = (
+				D40B6C9C1CB4E93600F6E80C /* Assets.xcassets */,
+				D40B6C9D1CB4E93600F6E80C /* Info.plist */,
+				D40B6C9E1CB4E93600F6E80C /* LaunchScreen.storyboard */,
+				D40B6C9F1CB4E93600F6E80C /* main.m */,
+				D40B6CA01CB4E93600F6E80C /* Main.storyboard */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		D40B6C9B1CB4E92400F6E80C /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				D40B6CA31CB4E94800F6E80C /* project__common.xcconfig */,
+				D40B6CA41CB4E94800F6E80C /* project__debug.xcconfig */,
+				D40B6CA51CB4E94800F6E80C /* project__ship.xcconfig */,
+				D40B6CA61CB4E94800F6E80C /* target__app.xcconfig */,
+				D40B6CA71CB4E94800F6E80C /* target__common.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		D42E6A061CB4D5B8007560DF = {
+			isa = PBXGroup;
+			children = (
+				D40B6C9B1CB4E92400F6E80C /* xcconfig */,
+				D40B6C9A1CB4E92000F6E80C /* res */,
+				D40B6C991CB4E91C00F6E80C /* src */,
+				D44AB5D01CD09429009BC715 /* App.app */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D40B6CAB1CB4E96A00F6E80C /* App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40B6CC11CB4E96A00F6E80C /* Build configuration list for PBXNativeTarget "App" */;
+			buildPhases = (
+				D40B6CA81CB4E96A00F6E80C /* Sources */,
+				D40B6CA91CB4E96A00F6E80C /* Frameworks */,
+				D40B6CAA1CB4E96A00F6E80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = App;
+			productName = App;
+			productReference = D44AB5D01CD09429009BC715 /* App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D42E6A071CB4D5B8007560DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					D40B6CAB1CB4E96A00F6E80C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D42E6A0A1CB4D5B8007560DF /* Build configuration list for PBXProject "App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D42E6A061CB4D5B8007560DF;
+			productRefGroup = D42E6A061CB4D5B8007560DF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D40B6CAB1CB4E96A00F6E80C /* App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D40B6CAA1CB4E96A00F6E80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FA6E961CB58B2B00A63837 /* Assets.xcassets in Resources */,
+				D4FA6E971CB58B2B00A63837 /* LaunchScreen.storyboard in Resources */,
+				D4FA6E981CB58B2B00A63837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D40B6CA81CB4E96A00F6E80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49524FF1CD32F5D00067E00 /* RobBonusViewController.m in Sources */,
+				D49525151CD3493B00067E00 /* RobBonusItem.m in Sources */,
+				D4FA6E941CB58B1A00A63837 /* RobAppDelegate.m in Sources */,
+				D495250B1CD33DE900067E00 /* RobBonusViewCell.m in Sources */,
+				D495250E1CD33E2000067E00 /* RobBonusModel.m in Sources */,
+				D49525081CD339A700067E00 /* RobBonusFlowLayout.m in Sources */,
+				D4FA6E951CB58B1C00A63837 /* main.m in Sources */,
+				D49525051CD336C700067E00 /* RobBonusViewDataSource.m in Sources */,
+				D49525021CD336AD00067E00 /* RobBonusViewDelegate.m in Sources */,
+				D44AB5D31CD09C57009BC715 /* RobTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D40B6CC21CB4E96A00F6E80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40B6CA61CB4E94800F6E80C /* target__app.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D40B6CC31CB4E96A00F6E80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40B6CA61CB4E94800F6E80C /* target__app.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		D42E6A0B1CB4D5B8007560DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40B6CA41CB4E94800F6E80C /* project__debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D42E6A0C1CB4D5B8007560DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40B6CA51CB4E94800F6E80C /* project__ship.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D40B6CC11CB4E96A00F6E80C /* Build configuration list for PBXNativeTarget "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40B6CC21CB4E96A00F6E80C /* Debug */,
+				D40B6CC31CB4E96A00F6E80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42E6A0A1CB4D5B8007560DF /* Build configuration list for PBXProject "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42E6A0B1CB4D5B8007560DF /* Debug */,
+				D42E6A0C1CB4D5B8007560DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D42E6A071CB4D5B8007560DF /* Project object */;
+}
