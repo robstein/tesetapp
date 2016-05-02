@@ -12,10 +12,10 @@
 
 @interface RobBonusModel : NSObject
 
-@property (nonatomic, readonly, copy) NSArray<RobBonusItem *> *topItems;
-@property (nonatomic, readonly, copy) NSArray<RobBonusItem *> *featuredItems;
-@property (nonatomic, readonly, copy) NSArray<RobBonusItem *> *bonusItems;
-@property (nonatomic, readonly, copy) NSArray<RobBonusItem *> *upAndComingItems;
+@property (nonatomic, readonly, strong) NSArray<RobBonusItem *> *topItems;
+@property (nonatomic, readonly, strong) NSArray<RobBonusItem *> *featuredItems;
+@property (nonatomic, readonly, strong) NSArray<RobBonusItem *> *bonusItems;
+@property (nonatomic, readonly, strong) NSArray<RobBonusItem *> *upAndComingItems;
 
 + (RobBonusModel *)mockModel;
 

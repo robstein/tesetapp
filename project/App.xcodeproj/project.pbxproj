@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		D44AB5D31CD09C57009BC715 /* RobTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44AB5D21CD09C57009BC715 /* RobTabBarController.m */; };
 		D49524FF1CD32F5D00067E00 /* RobBonusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49524FE1CD32F5D00067E00 /* RobBonusViewController.m */; };
-		D49525021CD336AD00067E00 /* RobBonusViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D49525011CD336AD00067E00 /* RobBonusViewDelegate.m */; };
-		D49525051CD336C700067E00 /* RobBonusViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D49525041CD336C700067E00 /* RobBonusViewDataSource.m */; };
 		D49525081CD339A700067E00 /* RobBonusFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D49525071CD339A700067E00 /* RobBonusFlowLayout.m */; };
 		D495250B1CD33DE900067E00 /* RobBonusViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D495250A1CD33DE900067E00 /* RobBonusViewCell.m */; };
 		D495250E1CD33E2000067E00 /* RobBonusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D495250D1CD33E2000067E00 /* RobBonusModel.m */; };
@@ -40,10 +38,6 @@
 		D44AB5D21CD09C57009BC715 /* RobTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobTabBarController.m; path = ../src/RobTabBarController.m; sourceTree = "<group>"; };
 		D49524FD1CD32F5D00067E00 /* RobBonusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusViewController.h; path = ../src/RobBonusViewController.h; sourceTree = "<group>"; };
 		D49524FE1CD32F5D00067E00 /* RobBonusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobBonusViewController.m; path = ../src/RobBonusViewController.m; sourceTree = "<group>"; };
-		D49525001CD336AD00067E00 /* RobBonusViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusViewDelegate.h; path = ../src/RobBonusViewDelegate.h; sourceTree = "<group>"; };
-		D49525011CD336AD00067E00 /* RobBonusViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobBonusViewDelegate.m; path = ../src/RobBonusViewDelegate.m; sourceTree = "<group>"; };
-		D49525031CD336C700067E00 /* RobBonusViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusViewDataSource.h; path = ../src/RobBonusViewDataSource.h; sourceTree = "<group>"; };
-		D49525041CD336C700067E00 /* RobBonusViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobBonusViewDataSource.m; path = ../src/RobBonusViewDataSource.m; sourceTree = "<group>"; };
 		D49525061CD339A700067E00 /* RobBonusFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusFlowLayout.h; path = ../src/RobBonusFlowLayout.h; sourceTree = "<group>"; };
 		D49525071CD339A700067E00 /* RobBonusFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobBonusFlowLayout.m; path = ../src/RobBonusFlowLayout.m; sourceTree = "<group>"; };
 		D49525091CD33DE900067E00 /* RobBonusViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusViewCell.h; path = ../src/RobBonusViewCell.h; sourceTree = "<group>"; };
@@ -81,10 +75,6 @@
 				D495250A1CD33DE900067E00 /* RobBonusViewCell.m */,
 				D49524FD1CD32F5D00067E00 /* RobBonusViewController.h */,
 				D49524FE1CD32F5D00067E00 /* RobBonusViewController.m */,
-				D49525031CD336C700067E00 /* RobBonusViewDataSource.h */,
-				D49525041CD336C700067E00 /* RobBonusViewDataSource.m */,
-				D49525001CD336AD00067E00 /* RobBonusViewDelegate.h */,
-				D49525011CD336AD00067E00 /* RobBonusViewDelegate.m */,
 				D44AB5D11CD09C57009BC715 /* RobTabBarController.h */,
 				D44AB5D21CD09C57009BC715 /* RobTabBarController.m */,
 				D49525121CD348E500067E00 /* RobTypes.h */,
@@ -202,8 +192,6 @@
 				D495250E1CD33E2000067E00 /* RobBonusModel.m in Sources */,
 				D49525081CD339A700067E00 /* RobBonusFlowLayout.m in Sources */,
 				D4FA6E951CB58B1C00A63837 /* main.m in Sources */,
-				D49525051CD336C700067E00 /* RobBonusViewDataSource.m in Sources */,
-				D49525021CD336AD00067E00 /* RobBonusViewDelegate.m in Sources */,
 				D44AB5D31CD09C57009BC715 /* RobTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

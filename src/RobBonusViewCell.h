@@ -10,6 +10,6 @@
 
 @interface RobBonusViewCell : UICollectionViewCell
 
-@property (nonatomic, strong) NSString *title;
+- (void)setTitle:(NSString *)title;
 
 @end

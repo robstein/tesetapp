@@ -10,9 +10,9 @@
 
 @interface RobBonusItem : NSObject
 
-@property (nonatomic, readonly, copy) NSString *title;
-@property (nonatomic, readonly, copy) NSString *provider;
-@property (nonatomic, readonly, assign) NSInteger pointValue;
+@property (nonatomic, readonly, strong) NSString *title;
+@property (nonatomic, readonly, strong) NSString *provider;
+@property (nonatomic, readonly) NSInteger pointValue;
 
 - (instancetype)initWithTitle:(NSString *)title provider:(NSString *)provider pointValue:(NSInteger)pointValue;
 
