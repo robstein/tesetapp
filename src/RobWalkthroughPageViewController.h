@@ -2,27 +2,23 @@
 //  RobWalkthroughPageViewController.h
 //  App
 //
-//  Created by Robert Stein on 5/3/16.
+//  Created by Robert Stein on 5/10/16.
 //
-//	This was going to be objcified swift code from ariok/BWWalkthrough but I stopped
 //
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, RobWalkthroughAnimationType) {
-	RobWalkthroughAnimationTypeLinear,
-	RobWalkthroughAnimationTypeCurve,
-	RobWalkthroughAnimationTypeZoom,
-	RobWalkthroughAnimationTypeInOut
-};
+@class RobWalkthroughPageViewController;
 
-@interface RobWalkthroughPageViewController : UIViewController
+@protocol RobPageViewControllerDelegate <NSObject>
 
-@property (nonatomic) RobWalkthroughAnimationType animationType;
-@property (nonatomic, strong) NSString *staticTags; // A comma separated list of tags that you don't want to animate
+- (void)walkthroughPageViewController:(RobWalkthroughPageViewController *)pageViewController didUpdatePageCount:(NSInteger)count;
+- (void)walkthroughPageViewController:(RobWalkthroughPageViewController *)pageViewController didUpdatePageIndex:(NSInteger)index;
 
-@property (nonatomic) CGPoint speed;
-@property (nonatomic) CGPoint speedVariance;
-@property (nonatomic) BOOL animateAlpha;
+@end
+
+@interface RobWalkthroughPageViewController : UIPageViewController
+
+@property (nonatomic, weak) id<RobPageViewControllerDelegate> walkthroughDelegate;
 
 @end

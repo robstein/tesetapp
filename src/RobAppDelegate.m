@@ -16,10 +16,11 @@
 @implementation RobAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	UIViewController *rootViewController = [[RobTabBarController alloc] init];
+	UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Walkthrough" bundle:[NSBundle mainBundle]];
+	UIViewController *initialViewController = [storyboard instantiateInitialViewController];
 	
 	UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-	[window setRootViewController:rootViewController];
+	[window setRootViewController:initialViewController];
 	[window setBackgroundColor:[UIColor whiteColor]];
 	[window makeKeyAndVisible];
 	[self setWindow:window];
