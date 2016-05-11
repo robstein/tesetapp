@@ -12,7 +12,8 @@
 
 - (instancetype)init {
 	if (self = [super init]) {
-		[self setScrollDirection:UICollectionViewScrollDirectionVertical];
+		[self setScrollDirection:UICollectionViewScrollDirectionHorizontal];
+		[self setItemSize:CGSizeMake(320, 548)];
 	}
 	return self;
 }

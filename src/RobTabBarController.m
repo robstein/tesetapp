@@ -7,7 +7,7 @@
 //
 
 #import "RobTabBarController.h"
-#import "RobBonusViewController.h"
+#import "RobBonusTableViewController.h"
 
 @interface RobTabBarController () <UITabBarControllerDelegate>
 
@@ -17,11 +17,11 @@
 
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-		RobBonusViewController *bonusVC0 = [[RobBonusViewController alloc] init];
-		RobBonusViewController *bonusVC1 = [[RobBonusViewController alloc] init];
-		RobBonusViewController *bonusVC2 = [[RobBonusViewController alloc] init];
-		RobBonusViewController *bonusVC3 = [[RobBonusViewController alloc] init];
-		RobBonusViewController *bonusVC4 = [[RobBonusViewController alloc] init];
+		RobBonusTableViewController *bonusVC0 = [[RobBonusTableViewController alloc] init];
+		RobBonusTableViewController *bonusVC1 = [[RobBonusTableViewController alloc] init];
+		RobBonusTableViewController *bonusVC2 = [[RobBonusTableViewController alloc] init];
+		RobBonusTableViewController *bonusVC3 = [[RobBonusTableViewController alloc] init];
+		RobBonusTableViewController *bonusVC4 = [[RobBonusTableViewController alloc] init];
 		
 		NSArray<UIViewController *> *viewControllers = @[bonusVC0, bonusVC1, bonusVC2, bonusVC3, bonusVC4];
 		[self setViewControllers:viewControllers];
