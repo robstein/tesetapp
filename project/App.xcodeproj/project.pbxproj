@@ -10,6 +10,8 @@
 		D40BA0CD1CD736A50066F59C /* RobBonusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40BA0CC1CD736A50066F59C /* RobBonusTableViewController.m */; };
 		D40BA0D01CD738440066F59C /* RobBonusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D40BA0CF1CD738440066F59C /* RobBonusTableViewCell.m */; };
 		D44AB5D31CD09C57009BC715 /* RobTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44AB5D21CD09C57009BC715 /* RobTabBarController.m */; };
+		D47D83BF1CD9C448008A52BB /* RobWalkthroughPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D83BE1CD9C448008A52BB /* RobWalkthroughPageViewController.m */; };
+		D47D83C21CD9C49B008A52BB /* RobWalkthroughViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D83C11CD9C49B008A52BB /* RobWalkthroughViewController.m */; };
 		D49525081CD339A700067E00 /* RobBonusFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D49525071CD339A700067E00 /* RobBonusFlowLayout.m */; };
 		D495250B1CD33DE900067E00 /* RobBonusViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D495250A1CD33DE900067E00 /* RobBonusViewCell.m */; };
 		D495250E1CD33E2000067E00 /* RobBonusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D495250D1CD33E2000067E00 /* RobBonusModel.m */; };
@@ -41,6 +43,10 @@
 		D44AB5D01CD09429009BC715 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44AB5D11CD09C57009BC715 /* RobTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobTabBarController.h; path = ../src/RobTabBarController.h; sourceTree = "<group>"; };
 		D44AB5D21CD09C57009BC715 /* RobTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobTabBarController.m; path = ../src/RobTabBarController.m; sourceTree = "<group>"; };
+		D47D83BD1CD9C448008A52BB /* RobWalkthroughPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobWalkthroughPageViewController.h; path = ../src/RobWalkthroughPageViewController.h; sourceTree = "<group>"; };
+		D47D83BE1CD9C448008A52BB /* RobWalkthroughPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobWalkthroughPageViewController.m; path = ../src/RobWalkthroughPageViewController.m; sourceTree = "<group>"; };
+		D47D83C01CD9C49B008A52BB /* RobWalkthroughViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobWalkthroughViewController.h; path = ../src/RobWalkthroughViewController.h; sourceTree = "<group>"; };
+		D47D83C11CD9C49B008A52BB /* RobWalkthroughViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobWalkthroughViewController.m; path = ../src/RobWalkthroughViewController.m; sourceTree = "<group>"; };
 		D49525061CD339A700067E00 /* RobBonusFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusFlowLayout.h; path = ../src/RobBonusFlowLayout.h; sourceTree = "<group>"; };
 		D49525071CD339A700067E00 /* RobBonusFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobBonusFlowLayout.m; path = ../src/RobBonusFlowLayout.m; sourceTree = "<group>"; };
 		D49525091CD33DE900067E00 /* RobBonusViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobBonusViewCell.h; path = ../src/RobBonusViewCell.h; sourceTree = "<group>"; };
@@ -78,6 +84,7 @@
 				D40BA0CF1CD738440066F59C /* RobBonusTableViewCell.m */,
 				D49525121CD348E500067E00 /* RobTypes.h */,
 				D40BA0C41CD733CF0066F59C /* view */,
+				D4A397B21CE309670055B311 /* walkthrough */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -143,6 +150,17 @@
 				D40B6C991CB4E91C00F6E80C /* src */,
 				D44AB5D01CD09429009BC715 /* App.app */,
 			);
+			sourceTree = "<group>";
+		};
+		D4A397B21CE309670055B311 /* walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				D47D83BD1CD9C448008A52BB /* RobWalkthroughPageViewController.h */,
+				D47D83BE1CD9C448008A52BB /* RobWalkthroughPageViewController.m */,
+				D47D83C01CD9C49B008A52BB /* RobWalkthroughViewController.h */,
+				D47D83C11CD9C49B008A52BB /* RobWalkthroughViewController.m */,
+			);
+			name = walkthrough;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +239,9 @@
 				D40BA0CD1CD736A50066F59C /* RobBonusTableViewController.m in Sources */,
 				D49525081CD339A700067E00 /* RobBonusFlowLayout.m in Sources */,
 				D4FA6E951CB58B1C00A63837 /* main.m in Sources */,
+				D47D83C21CD9C49B008A52BB /* RobWalkthroughViewController.m in Sources */,
 				D44AB5D31CD09C57009BC715 /* RobTabBarController.m in Sources */,
+				D47D83BF1CD9C448008A52BB /* RobWalkthroughPageViewController.m in Sources */,
 				D40BA0D01CD738440066F59C /* RobBonusTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
