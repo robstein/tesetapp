@@ -7,7 +7,7 @@
 //
 
 #import "RobAppDelegate.h"
-#import "RobTabBarController.h"
+#import "RobViewController.h"
 
 @interface RobAppDelegate () <NSURLSessionDelegate>
 
@@ -16,8 +16,7 @@
 @implementation RobAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Walkthrough" bundle:[NSBundle mainBundle]];
-	UIViewController *initialViewController = [storyboard instantiateInitialViewController];
+	UIViewController *initialViewController = [[RobViewController alloc] init];
 	
 	UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	[window setRootViewController:initialViewController];
