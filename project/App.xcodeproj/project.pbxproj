@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		CCD7684B1D1DDA5B00EC8845 /* RobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD7684A1D1DDA5B00EC8845 /* RobViewController.m */; };
 		CCD7684E1D1DDAB900EC8845 /* RobView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD7684D1D1DDAB900EC8845 /* RobView.m */; };
+		D49CACFB1D4802FD000D3028 /* RobTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D49CACFA1D4802FD000D3028 /* RobTestObject.m */; };
+		D4D8BD261D49F3CA0077BA6C /* CFSHttpHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D8BD251D49F3CA0077BA6C /* CFSHttpHeader.m */; };
+		D4D8BD291D49F4E10077BA6C /* CFSChallengeSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D8BD281D49F4E10077BA6C /* CFSChallengeSolution.m */; };
+		D4D8BD2C1D49FB330077BA6C /* CFSChallengeSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D8BD2B1D49FB330077BA6C /* CFSChallengeSolver.m */; };
+		D4D8BD2F1D4A09A50077BA6C /* CFSClearanceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D8BD2E1D4A09A50077BA6C /* CFSClearanceHandler.m */; };
 		D4FA6E941CB58B1A00A63837 /* RobAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D40B6CA21CB4E93D00F6E80C /* RobAppDelegate.m */; };
 		D4FA6E951CB58B1C00A63837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D40B6C9F1CB4E93600F6E80C /* main.m */; };
 		D4FA6E961CB58B2B00A63837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40B6C9C1CB4E93600F6E80C /* Assets.xcassets */; };
@@ -32,6 +37,16 @@
 		D40B6CA61CB4E94800F6E80C /* target__app.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = target__app.xcconfig; path = ../xcconfig/target__app.xcconfig; sourceTree = "<group>"; };
 		D40B6CA71CB4E94800F6E80C /* target__common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = target__common.xcconfig; path = ../xcconfig/target__common.xcconfig; sourceTree = "<group>"; };
 		D44AB5D01CD09429009BC715 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49CACF91D4802FD000D3028 /* RobTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobTestObject.h; path = ../src/RobTestObject.h; sourceTree = "<group>"; };
+		D49CACFA1D4802FD000D3028 /* RobTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobTestObject.m; path = ../src/RobTestObject.m; sourceTree = "<group>"; };
+		D4D8BD241D49F3CA0077BA6C /* CFSHttpHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFSHttpHeader.h; path = ../src/CFSHttpHeader.h; sourceTree = "<group>"; };
+		D4D8BD251D49F3CA0077BA6C /* CFSHttpHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFSHttpHeader.m; path = ../src/CFSHttpHeader.m; sourceTree = "<group>"; };
+		D4D8BD271D49F4E10077BA6C /* CFSChallengeSolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFSChallengeSolution.h; path = ../src/CFSChallengeSolution.h; sourceTree = "<group>"; };
+		D4D8BD281D49F4E10077BA6C /* CFSChallengeSolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFSChallengeSolution.m; path = ../src/CFSChallengeSolution.m; sourceTree = "<group>"; };
+		D4D8BD2A1D49FB330077BA6C /* CFSChallengeSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFSChallengeSolver.h; path = ../src/CFSChallengeSolver.h; sourceTree = "<group>"; };
+		D4D8BD2B1D49FB330077BA6C /* CFSChallengeSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFSChallengeSolver.m; path = ../src/CFSChallengeSolver.m; sourceTree = "<group>"; };
+		D4D8BD2D1D4A09A50077BA6C /* CFSClearanceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFSClearanceHandler.h; path = ../src/CFSClearanceHandler.h; sourceTree = "<group>"; };
+		D4D8BD2E1D4A09A50077BA6C /* CFSClearanceHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFSClearanceHandler.m; path = ../src/CFSClearanceHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,12 +63,22 @@
 		D40B6C991CB4E91C00F6E80C /* src */ = {
 			isa = PBXGroup;
 			children = (
-				D40BA0C31CD733BB0066F59C /* controller */,
-				D40BA0C21CD733A90066F59C /* model */,
+				D49CACF91D4802FD000D3028 /* RobTestObject.h */,
+				D49CACFA1D4802FD000D3028 /* RobTestObject.m */,
 				D40B6CA11CB4E93D00F6E80C /* RobAppDelegate.h */,
 				D40B6CA21CB4E93D00F6E80C /* RobAppDelegate.m */,
+				D40BA0C31CD733BB0066F59C /* controller */,
+				D40BA0C21CD733A90066F59C /* model */,
 				D40BA0C41CD733CF0066F59C /* view */,
 				D4A397B21CE309670055B311 /* walkthrough */,
+				D4D8BD241D49F3CA0077BA6C /* CFSHttpHeader.h */,
+				D4D8BD251D49F3CA0077BA6C /* CFSHttpHeader.m */,
+				D4D8BD271D49F4E10077BA6C /* CFSChallengeSolution.h */,
+				D4D8BD281D49F4E10077BA6C /* CFSChallengeSolution.m */,
+				D4D8BD2A1D49FB330077BA6C /* CFSChallengeSolver.h */,
+				D4D8BD2B1D49FB330077BA6C /* CFSChallengeSolver.m */,
+				D4D8BD2D1D4A09A50077BA6C /* CFSClearanceHandler.h */,
+				D4D8BD2E1D4A09A50077BA6C /* CFSClearanceHandler.m */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -191,10 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D8BD291D49F4E10077BA6C /* CFSChallengeSolution.m in Sources */,
+				D4D8BD2C1D49FB330077BA6C /* CFSChallengeSolver.m in Sources */,
 				D4FA6E941CB58B1A00A63837 /* RobAppDelegate.m in Sources */,
+				D4D8BD261D49F3CA0077BA6C /* CFSHttpHeader.m in Sources */,
 				D4FA6E951CB58B1C00A63837 /* main.m in Sources */,
+				D49CACFB1D4802FD000D3028 /* RobTestObject.m in Sources */,
 				CCD7684E1D1DDAB900EC8845 /* RobView.m in Sources */,
 				CCD7684B1D1DDA5B00EC8845 /* RobViewController.m in Sources */,
+				D4D8BD2F1D4A09A50077BA6C /* CFSClearanceHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +235,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D40B6CA61CB4E94800F6E80C /* target__app.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 			};
 			name = Debug;
 		};
@@ -212,6 +243,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D40B6CA61CB4E94800F6E80C /* target__app.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 			};
 			name = Release;
 		};

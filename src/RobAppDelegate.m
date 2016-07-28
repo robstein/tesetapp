@@ -8,6 +8,7 @@
 
 #import "RobAppDelegate.h"
 #import "RobViewController.h"
+#import "RobTestObject.h"
 
 @interface RobAppDelegate () <NSURLSessionDelegate>
 
@@ -16,6 +17,10 @@
 @implementation RobAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	
+	//[self doTestThing];
+	[self makeRequest];
+	
 	UIViewController *initialViewController = [[RobViewController alloc] init];
 	
 	UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -24,6 +29,14 @@
 	[window makeKeyAndVisible];
 	[self setWindow:window];
 	return YES;
+}
+
+- (void)doTestThing {
+	[RobTestObject doInterviewQuestion];
+}
+
+- (void)makeRequest {
+	
 }
 
 @end
